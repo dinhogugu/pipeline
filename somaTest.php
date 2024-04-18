@@ -7,7 +7,7 @@ Class testSoma {
     {
         $class = new Soma();
 
-        if ($class->somar(5,5) == 10) {
+        if ($class->somar(5,7) == 10) {
             return 'aeeee isso mesmo, deu bom!';
         }
 
