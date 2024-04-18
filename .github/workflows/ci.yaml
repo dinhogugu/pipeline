@@ -1,9 +1,9 @@
 name: ci-php-workflow
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
+      - develop
 
 jobs: 
   check-build:
