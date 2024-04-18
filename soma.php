@@ -2,7 +2,7 @@
 
 Class Soma {
 
-    public function somar(int $a, int $b): string
+    public function somar(int $a, int $b): int
     {
         return $a + $b;
     }
