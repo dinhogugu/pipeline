@@ -7,11 +7,11 @@ Class testSoma {
     {
         $class = new Soma();
 
-        if ($class->somar(5) == 10) {
-            return 'aeeee isso mesmo, deu bom!';
+        if ($class->somar(5,6) != 10) {
+            return throw new Exception('errado demaiss!');
         }
 
-        return 'deu ruim demais';
+        return 'aeeee isso mesmo!';
     }
 }
 
