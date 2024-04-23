@@ -9,7 +9,7 @@ Class testSoma {
         $class = new Soma();
 
         if ($class->somar(5,5) != 10) {
-            return throw new Exception('errado demaiss!');
+            return throw new Exception('errado demais!');
         }
 
         return 'aeeee isso mesmo!';
